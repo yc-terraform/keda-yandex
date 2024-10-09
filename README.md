@@ -108,7 +108,7 @@ KEDA (Kubernetes Event-Driven Autoscaling) — это оператор для Ku
       --tty load-generator \
       --rm --image=busybox \
       --restart=Never \
-      -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://php-apache; done" ```
+      -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://php-apache; done"
 
 
   1. Проверьте состояние подов:
